@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f05060ef36af59f4991936f858b384a6, type: 3}
+  m_Name: MissileUpgrade_1
+  m_EditorClassIdentifier: 
+  Name: Missile Upgrade 1
+  icon: {fileID: 21300000, guid: 90dfee08c39f9544582c2a4262986789, type: 3}
+  upgradeInfo: More Damage
+  upgradeType: 0
+  weaponData: {fileID: 11400000, guid: 4d4447ce096228e45ab99ea2af8f3433, type: 2}
+  weaponUpgradeStats:
+    damage: 100
+    timeToAttack: 0
+    numberOfAttacks: 0
+  skillData: {fileID: 0}
+  upgrades:
+    health: 0
+    attack: 0
+    hpRegenerationRate: 0

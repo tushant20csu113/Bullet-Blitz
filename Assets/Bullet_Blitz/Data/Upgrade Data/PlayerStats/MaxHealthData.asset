@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db8442d223ff0e64bb47e1b24db714ab, type: 3}
+  m_Name: MaxHealthData
+  m_EditorClassIdentifier: 
+  skillName: MaxHealth
+  stats:
+    health: 20
+    attack: 0
+    hpRegenerationRate: 0
+  upgrades:
+  - {fileID: 11400000, guid: 3e2b0a86569366646bbc4b919cbdf396, type: 2}
+  - {fileID: 11400000, guid: fb844c068782cd74781102dee18b3f9b, type: 2}
+  - {fileID: 11400000, guid: 1755d72755fd9e24e9bdc4a5016430a4, type: 2}
+  - {fileID: 11400000, guid: 1729f2c00f9420f4091f0d0cdc472dbd, type: 2}

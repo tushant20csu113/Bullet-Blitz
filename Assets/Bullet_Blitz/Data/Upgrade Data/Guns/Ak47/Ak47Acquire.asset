@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f05060ef36af59f4991936f858b384a6, type: 3}
+  m_Name: Ak47Acquire
+  m_EditorClassIdentifier: 
+  Name: Ak47 Acquire
+  icon: {fileID: 0}
+  upgradeInfo: 
+  upgradeType: 0
+  weaponData: {fileID: 11400000, guid: d5662900f5556fd48bae594253ec9576, type: 2}
+  weaponUpgradeStats:
+    damage: 0
+    timeToAttack: 0
+    numberOfAttacks: 0

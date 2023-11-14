@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db8442d223ff0e64bb47e1b24db714ab, type: 3}
+  m_Name: Regeneration_Data
+  m_EditorClassIdentifier: 
+  skillName: Regeneration
+  stats:
+    health: 0
+    attack: 0
+    hpRegenerationRate: 1
+  upgrades:
+  - {fileID: 11400000, guid: 6b70492532986a048b1a5f2b4e0a0c47, type: 2}
+  - {fileID: 11400000, guid: 50b864df6e1b87e4684d84e7cb2bd4ae, type: 2}
+  - {fileID: 11400000, guid: fdc7f107640c52e43bffbbbce2edf56c, type: 2}

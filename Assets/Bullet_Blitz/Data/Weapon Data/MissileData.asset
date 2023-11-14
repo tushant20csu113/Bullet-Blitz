@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51de5674296476c4aacbd9dfdad795ae, type: 3}
+  m_Name: MissileData
+  m_EditorClassIdentifier: 
+  weaponName: Missile
+  stats:
+    damage: 75
+    timeToAttack: 3
+    numberOfAttacks: 1
+  weaponBasePrefab: {fileID: 6790366979950717399, guid: ceb8b2fe17a02b8428e72b57ae662b38, type: 3}
+  upgrades:
+  - {fileID: 11400000, guid: 01265dd389501ed45b276f5354b170c8, type: 2}
+  - {fileID: 11400000, guid: 79defec395618c846aa2941bc219479b, type: 2}
+  - {fileID: 11400000, guid: ceb6ce965074fa6468c3223a09957e80, type: 2}

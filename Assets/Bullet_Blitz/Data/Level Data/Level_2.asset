@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a808bec672c8c6b4fbd716286cabc34e, type: 3}
+  m_Name: Level_2
+  m_EditorClassIdentifier: 
+  stageEvents:
+  - eventType: 0
+    time: 5
+    message: Wave 1
+    enemyToSpawn: {fileID: 11400000, guid: 367924c72c283e84385ab20dcfaa8da0, type: 2}
+    count: 20
+  - eventType: 0
+    time: 20
+    message: Wave 2
+    enemyToSpawn: {fileID: 11400000, guid: 367924c72c283e84385ab20dcfaa8da0, type: 2}
+    count: 20
+  - eventType: 0
+    time: 40
+    message: Wave 3
+    enemyToSpawn: {fileID: 11400000, guid: 367924c72c283e84385ab20dcfaa8da0, type: 2}
+    count: 20
+  - eventType: 2
+    time: 60
+    message: Level Cleared
+    enemyToSpawn: {fileID: 0}
+    count: 0

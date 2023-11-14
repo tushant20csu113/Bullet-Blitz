@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f05060ef36af59f4991936f858b384a6, type: 3}
+  m_Name: Regeneration_Upgrade_1
+  m_EditorClassIdentifier: 
+  Name: Regeneration_Upgrade_1
+  icon: {fileID: 21300000, guid: e62c152681d4552408016993500b737e, type: 3}
+  upgradeInfo: Increases Health Regeneration Rate +3%
+  upgradeType: 3
+  weaponData: {fileID: 0}
+  weaponUpgradeStats:
+    damage: 0
+    timeToAttack: 0
+    numberOfAttacks: 0
+  skillData: {fileID: 11400000, guid: 7c3074c80b8c58e4880e1a0945040c1d, type: 2}
+  upgrades:
+    health: 0
+    attack: 0
+    hpRegenerationRate: 3
